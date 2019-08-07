@@ -1,15 +1,93 @@
 <!DOCTYPE html>
 
-<!DOCTYPE html>
-<html>
 <head>
-	<title>Halaman HTML Pertama</title>
+	<style> 
+	span {background:orange;width:100px;height:50px;display:inline-block;}
+    </style>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Judul halaman</title>
 </head>
 <body>
-	<!-- Judul -->
-	<h1 style="color:navy">Selamat Datang</h1>
-	<h2 style="color:navy; background-color: yellow; border: 2px solid yellow">Welcome</h2>
-	<p style="font-size: 50px; text-align: center;">Ini adalah halaman HTML pertama saya,<b><i>maybe..</i></b></p>
+	<!-- semua yang akan di tampilkan di web disimpan di dalam body -->
+	<h1>Selamat Datang</h1>
+	<h2>Welcome</h2>
+	<p>Welcome to my homepage. Here you can read about codepolitan.</p>
+	<p id="highlight">Ini selector id</p>
+	<p class="red">Ini selector class</p>
+	<table border="10">
+		<tr>
+			<th colspan="1"; rowspan="1">Nomer</th>
+			<th>Nama</th>
+			<th>Alamat</th>
+		</tr>
+		<tr>
+			<th>1</th>
+			<th>Roy</th>
+			<th>Bandung</th>
+		</tr>
+		<tr>
+			<th>2</th>
+			<th>Boy</th>
+			<th>Jakarta</th>
+		</tr>
+		<tr>
+			<th>3</th>
+			<th>Roni</th>
+			<th>Surabaya</th>
+		</tr>
+	</table>
 	<img src="https://i.ibb.co/cYkNxbJ/Ini-Saya-Jaman-SMA.jpg" alt="Ini-Saya-Jaman-SMA" border="0" place="center" sizes="10px 10px">
+	<!DOCTYPE html>
+    <p>CodePolitan adalah media edukasi dan informasi tentang pemrograman dan teknologi. CodePolitan dibangun untuk memfasilitasi para developer dalam mendapatkan informasi dan pengetahuan seputar pemrograman dan teknologi. Konten-konten yang ada di CodePolitan disusun sedemikian rupa dan dalam bahasa Indonesia agar mudah dipahami oleh para developer Indonesia.
+    </p>
+	<table width="100%">
+		<tr>
+			<td colspan="2" style="background: orange">
+				<h1>Header</h1>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td width="50" style="background: magenta">
+				<strong>Sidebar</strong>
+				<ul>
+			    <li><a href="home.html">Home</a></li>
+			    <li><a href="about.html">About</a></li>
+			    <li><a href="contact.html">Contact</a></li>
+			    <li><a href="forum.html">Forum</a></li>
+				</ul>
+			</td>
+			<td width="100" height="550" style="background: yellow">
+				<strong>Halaman Konten</strong>
+				 Lorem Ipsum is simply dummy text of the printing and typesetting        
+	            industry.
+	            Lorem Ipsum has been the industry's standard dummy text ever since the  
+	            1500s, when an unknown printer took a galley of type and scrambled it to
+	            make a type specimen book. It has survived not only five centuries, but
+	            also the leap into electronic typesetting, remaining essentially unchanged.
+	            It was popularised in the 1960s with the release of Letraset sheets
+	            containing Lorem Ipsum passages, and more recently with desktop publishing
+	            software like Aldus PageMaker including versions of Lorem Ipsum.			
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="background: greenyellow">
+				<h1>Footer</h1>
+			</td>
+		</tr>
+	</table>
+	<!-- Layout dengan tag -->
+	<div id="header">
+		Header
+	</div>
+	<div id="sidebar">
+		Sidebar
+	</div>
+	<div id="content">
+		Content
+	</div>
+	<div id="footer">
+		Footer
+	</div>
 </body>
 </html>
